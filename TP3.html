@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pendahuluan 3</title>
+</head>
+<body>
+    <h1>Profil Pribadi</h1>
+
+    <!-- Menggunakan table untuk menyusun bagian profil dan video perkenalan -->
+    <table>
+        <tr>
+            <th align="mid">Foto Profil</th>
+            <th align="mid">Video Diri</th>
+        </tr>
+        <tr>
+            <!-- tag Img digunakan untuk menampilkan ikon gambar -->
+            <td><img src="Profil.jpg" height="200"></td>
+             <!-- Fungsi: untuk menampilkan gambar profil pembuat -->
+             <!-- tag video digunakan untuk menampilkan ikon video -->
+            <td><video height="200" controls>
+                <source src="vid.mp4" type="video/mp4">
+                Video perkenalan tidak bisa diputar.
+            </video></td>
+             <!-- Fungsi: untuk menampilkan video perkenalan -->
+        </tr>
+    </table>
+    <h2>Tentang Saya</h2>
+    <!-- Menampilkan deskripsi singkat pembuat -->
+    Halo! Saya adalah seorang mahasiswa yang sedang mengambil jurusan S1 Teknologi Informasi Di Universitas Telkom. <br/><br/>
+    <h2>Keterampilan</h2>
+    <table border="1">
+        <!-- Menggunakan table untuk menyusun bagian keterampilan -->
+        <tr>
+            <th>No</th>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>HTML/CSS/JS</td>
+            <td>Menegah</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Figma</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Komunikasi</td>
+            <td>Mahir</td>
+        </tr>
+    </table>
+    <h3>Hubungi Saya</h3>
+    <!-- Menampilkan formulir untuk menghubungi -->
+    <form>
+        <div>
+            <!-- Tag input digunakan untuk menerima teks -->
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama">
+            <!-- Fungsi: untuk memasukan nama pengirim -->
+        </div>
+        <div>
+            <label for="gmail">Email:</label>
+            <input type="email" id="gmail" name="gmail">
+            <!-- Fungsi: untuk memasukan email pengirim -->
+        </div>
+        <div>
+            <label for="pesan">Pesan:<br/></label>
+            <textarea id="pesan" name="pesan" rows="3" cols="50"></textarea>
+            <!-- Fungsi: untuk memasukan pesan pengirim -->
+        </div>
+        <button type="submit">Kirimkan Pesan</button>
+        <!-- Tag button digunakan sebagai tombol untuk melakukan aksi -->
+    </form>
+    <h3>Media Sosial</h3>
+    <!-- Menampilkan list sosial media -->
+    <div>
+    <!-- div digunakan sebagai wadah penampung konten -->
+        <a href="https://www.linkedin.com/in/Pande-Made-Agung-Dananjaya-Krisna-Cakra" target="_blank">Linkedln</a>
+        |
+        <a href="https://www.instagram.com/agungpande?igsh=MWphcDAzazkzNWdidQ==" target="_blank">Instagram</a>
+        |
+        <a href="https://www.tiktok.com/@agung.dananjaya" target="_blank">Tiktok</a>
+        <!-- a digunakan untuk mengklasifikasikan sumber link suatu atribut -->
+    </div>
+</body>
+</html>
